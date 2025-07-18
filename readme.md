@@ -71,4 +71,4 @@ You can alter this LICENSE and README file for your project if needed. You can a
 * ⏳ Pre-setup CLI toolchain
 
 ## 📄 License
-[MIT](./LICENSE)
+Licensed under the [MIT License](./LICENSE)
