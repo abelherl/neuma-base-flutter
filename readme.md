@@ -61,8 +61,8 @@ flutter pub get
 flutter run
 ```
 
-### 4. *(Optional)* Update README file
-You can alter this README file for your project if needed.
+### 4. *(Optional)* Update README and LICENSE file
+You can alter this LICENSE and README file for your project if needed. You can also choose your own license [here.](https://choosealicense.com/)
 
 ## 🛠️ Future Plans
 * ✅ Clean folder separation with feature-first approach
