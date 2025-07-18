@@ -1,11 +1,11 @@
 # 🌬️ Neuma Base Flutter
 
-### 💡 What is Neuma?
-Derived from the Greek word "pneuma" meaning breath or spirit, this base is designed to bring life into your Flutter projects without getting in your way 🤩
+## 💡 What is Neuma?
+Derived from the Greek word "pneuma" meaning breath or spirit, Neuma Base Flutter is designed to bring life into your Flutter projects without getting in your way 🤩
 
-**Neuma Base Flutter** is a lightweight, scalable Flutter project starter with a feature-first architecture, Domain-Driven Design (DDD)-inspired folder structure — designed for rapid prototyping and real-world app development. Ideal as a scalable base template for production-ready projects or experiments.
+It’s a lightweight yet scalable Flutter starter with a feature-first architecture and a DDD-inspired folder structure — perfect for rapid prototyping, real-world app development, and clean production-ready codebases.
 
-### 🧱 Project Structure
+## 🧱 Project Structure
 
 ```bash
 lib/
@@ -21,7 +21,7 @@ lib/
 │   ├── models/       # DTOs and data representations
 │   └── repositories/ # Data sources implementation
 │
-├── features/         # Modular feature-first structure
+├── features/             # Modular feature-first structure
 │   ├── home/
 │   │   ├── domain/       # Entities, usecases, abstract repos
 │   │   ├── presentation/ # UI widgets, screens
@@ -29,41 +29,40 @@ lib/
 │   └── profile/          # (Placeholder for other features)
 │
 ├── routing/          # App routing setup
-│   └── my_routing.dart
 │
 ├── shared/           # Shared UI & logic across features
 │   ├── dialogs/
 │   ├── extensions/
 │   └── widgets/
 │
-├── tests/        # Testing files and mocks
+├── tests/            # Testing files and mocks
 │
 ├── main.dart         # Entry point
 ```
 
-### 🚀 Getting Started
+## 🚀 Getting Started
 
-1. Clone the repo
+### 1. Clone the repo
 ```bash
-git clone https://github.com/your-username/neuma-base-flutter.git
+git clone https://github.com/abelherl/neuma-base-flutter.git
 cd neuma-base-flutter
 ```
 
-2. Install packages
+### 2. Install packages
 ```bash
 flutter pub get
 ```
 
-3. Run the app
+### 3. Run the app
 ```bash
 flutter run
 ```
 
-### 🛠️ Future Plan
-✅ Clean folder separation with feature-first approach
-🔜 Integrate mason template for CLI bootstrapping
-🔜 Multiple base templates (e.g. Bloc, Provider, Riverpod, Getx)
-🔜 Optional pre-setup CLI toolchain
+## 🛠️ Future Plan
+* ✅ Clean folder separation with feature-first approach
+* 🔜 Integrate mason template for CLI bootstrapping
+* 🔜 Multiple base templates (e.g. Bloc, Provider, Riverpod, Getx)
+* 🔜 Optional pre-setup CLI toolchain
 
-### 📄 License
-MIT License. Use freely and contribute!
+## 📄 License
+[MIT](./LICENSE)
