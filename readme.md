@@ -58,14 +58,14 @@ flutter pub get
 flutter run
 ```
 
-### 4. *(Optional)* Update ```readme.md``` file
-You can alter this readme file for your project if needed.
+### 4. *(Optional)* Update README file
+You can alter this README file for your project if needed.
 
 ## 🛠️ Future Plan
 * ✅ Clean folder separation with feature-first approach
-* 🔜 Integrate mason template for CLI bootstrapping
-* 🔜 Multiple base templates (e.g. Bloc, Provider, Riverpod, Getx)
-* 🔜 Optional pre-setup CLI toolchain
+* ⏳ Integrate a [mason](https://github.com/felangel/mason) template for CLI bootstrapping
+* ⏳ Multiple base templates (e.g. Bloc, Provider, Riverpod, Getx)
+* ⏳ Optional pre-setup CLI toolchain
 
 ## 📄 License
 [MIT](./LICENSE)
