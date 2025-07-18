@@ -5,6 +5,9 @@ Derived from the Greek word "pneuma" meaning breath or spirit, Neuma Base Flutte
 
 It’s a lightweight yet scalable Flutter starter with a feature-first architecture and a DDD-inspired folder structure — perfect for rapid prototyping, real-world app development, and clean production-ready codebases.
 
+## 💻 Technologies
+[![Technologies](https://skillicons.dev/icons?i=dart,flutter)](https://skillicons.dev)
+
 ## 🧱 Project Structure
 
 ```bash
@@ -61,11 +64,11 @@ flutter run
 ### 4. *(Optional)* Update README file
 You can alter this README file for your project if needed.
 
-## 🛠️ Future Plan
+## 🛠️ Future Plans
 * ✅ Clean folder separation with feature-first approach
 * ⏳ Integrate a [mason](https://github.com/felangel/mason) template for CLI bootstrapping
 * ⏳ Multiple base templates (e.g. Bloc, Provider, Riverpod, Getx)
-* ⏳ Optional pre-setup CLI toolchain
+* ⏳ Pre-setup CLI toolchain
 
 ## 📄 License
 [MIT](./LICENSE)
