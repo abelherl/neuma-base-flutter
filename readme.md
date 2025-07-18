@@ -58,8 +58,8 @@ flutter pub get
 flutter run
 ```
 
-### 4. (Optional) Update ```readme.md``` using the ```readme_template.md```
-This project includes a simple ```readme_template.md``` that you can use! Or you can alter this ```readme.md``` if that's your style!
+### 4. *(Optional)* Update ```readme.md``` file
+You can alter this readme file for your project if needed.
 
 ## 🛠️ Future Plan
 * ✅ Clean folder separation with feature-first approach
