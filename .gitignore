@@ -1,57 +1,72 @@
-# Dart & Flutter
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
 .dart_tool/
-.packages
-.pub-cache/
 .flutter-plugins
 .flutter-plugins-dependencies
-.melos_tool/
-build/
-generated_plugin_registrant.dart
+.pub-cache/
+.pub/
+/build/
 
-# IDEs
-.idea/
-.vscode/
-*.iml
+# Symbolication related
+app.*.symbols
 
-# System
-.DS_Store
-Thumbs.db
+# Obfuscation related
+app.*.map.json
 
-# Android
-android/.gradle/
-android/.idea/
-android/local.properties
-android/gradle-wrapper.properties
+# Android Studio will place build artifacts here
+/android/app/debug
+/android/app/profile
+/android/app/release
 
-# iOS/macOS
-ios/Flutter/.last_build_id
-ios/.symlinks/
-ios/Pods/
-ios/Runner.xcworkspace/
-ios/Flutter/Generated.xcconfig
-ios/Flutter/App.framework
-ios/Flutter/Flutter.framework
-macos/Flutter/ephemeral/
-macos/Pods/
-macos/Runner.xcworkspace/
+# FVM Version Cache
+.fvm/
 
-# Linux
-linux/flutter/ephemeral/
+# Flavor
+env_*.json
+!env_example.json
 
-# Windows
-windows/flutter/ephemeral/
+# Xcode/iOS specific
+Podfile.lock
+*.xcworkspacedata
+project.pbxproj
+**/DerivedData/
+ios/Runner/
+info.plist
 
-# Web
-web/.dart_tool/
-web/build/
+# Sync service files (Dropbox, etc.)
+*.nosync*
+*.dat.nosync*
 
-# Firebase (if used)
-.firebase/
-firebase.json
+# macOS additional
+**/.DS_Store
 
-# Coverage
-coverage/
-
-# Exceptions
-!pubspec.yaml
-!pubspec.lock
+# Android profiling and reports
+*.hprof
+problems-report.html
+**/build/reports/
